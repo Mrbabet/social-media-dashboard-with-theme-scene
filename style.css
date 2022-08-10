@@ -174,9 +174,12 @@ select {
 .grid-box-today {
   background-color: #f1f3fa;
   border-radius: 5px;
-  padding-block: 32px;
+  padding-block: 28px;
   grid-column: span 2;
   padding-inline: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .grid-box-today span {
   font-size: 14px;
@@ -193,4 +196,17 @@ select {
   font-weight: bold;
   color: #1eb589;
   grid-column: 3/3;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 0.25rem;
+}
+.grid-box-today .red {
+  color: #dc414c;
+}
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  column-gap: 1rem;
 }
