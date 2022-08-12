@@ -1,5 +1,31 @@
 const checkbox = document.getElementById("checkbox");
+const Element = document.getElementById("topHeader");
+const a = document.getElementById("gridBoxTotalDark");
+const b = document.getElementById("gridBoxTotalDark1");
+const c = document.getElementById("gridBoxTotalDark2");
+const d = document.getElementById("gridBoxTotalDark3");
+const f = document.getElementById("gridBoxTodayDark");
+const g = document.getElementById("gridBoxTodayDark1");
+const h = document.getElementById("gridBoxTodayDark2");
+const i = document.getElementById("gridBoxTodayDark3");
+const j = document.getElementById("gridBoxTodayDark4");
+const k = document.getElementById("gridBoxTodayDark5");
+const l = document.getElementById("gridBoxTodayDark6");
+const m = document.getElementById("gridBoxTodayDark7");
 
 checkbox.addEventListener("change", () => {
   document.body.classList.toggle("dark");
+  Element.classList.toggle("topHeaderDark");
+  a.classList.toggle("gridBoxTotalDark");
+  b.classList.toggle("gridBoxTotalDark");
+  c.classList.toggle("gridBoxTotalDark");
+  d.classList.toggle("gridBoxTotalDark");
+  f.classList.toggle("gridBoxTodayDark");
+  g.classList.toggle("gridBoxTodayDark");
+  h.classList.toggle("gridBoxTodayDark");
+  i.classList.toggle("gridBoxTodayDark");
+  j.classList.toggle("gridBoxTodayDark");
+  k.classList.toggle("gridBoxTodayDark");
+  l.classList.toggle("gridBoxTodayDark");
+  m.classList.toggle("gridBoxTodayDark");
 });

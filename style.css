@@ -94,7 +94,9 @@ select {
 }
 .grid-container-total {
   display: grid;
-  grid-template-columns: 1fr;
+  justify-content: center;
+
+  grid-template-columns: minmax(255px, 500px);
   grid-template-rows: repeat(4, 1fr);
   gap: 1rem;
   margin-inline: 1.5rem;
@@ -245,15 +247,24 @@ select {
 body.dark {
   background-color: #1d1f29;
 }
-body.top-header.dark {
+.topHeaderDark {
   background-color: #20222f;
 }
-.grid-box-total.dark,
-.grid-box-today.dark {
+
+.gridBoxTotalDark {
   background-color: #252b42;
 }
+.gridBoxTotalDark:hover {
+  background-color: #333a55;
+}
+.gridBoxTodayDark {
+  background-color: #252b42;
+}
+.gridBoxTodayDark:hover {
+  background-color: #333a55;
+}
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 800px) {
   .Mode-slider {
     border: 0;
   }
@@ -299,7 +310,7 @@ body.top-header.dark {
   }
   .container-wrapper,
   .top-header-wrapper {
-    margin-inline: 10rem;
+    margin-inline: 5rem;
     margin-bottom: 4rem;
   }
 }
