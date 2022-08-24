@@ -235,6 +235,7 @@ select {
   height: 26px;
   width: 50px;
   position: relative;
+  cursor: pointer;
 }
 .ball {
   width: 22px;

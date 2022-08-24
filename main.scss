@@ -2,6 +2,7 @@
 body.dark {
     background-color: #20222f;
   }
+
   .top-header.dark {
     background-color: #20222f;
     
@@ -24,6 +25,12 @@ body.dark {
         color: #8C98C6;
     }
   }
+
+ 
+  
+ 
+
+  
   
 .grid-box-today.dark {
     background-color: #252b42;
@@ -36,4 +43,20 @@ body.dark {
         color: white; 
     }
    }
+  }
+
+  // Hover states
+
+  .grid-box-today:hover{
+    background-color:#E1E4F0;
+  }
+  .grid-box-total:hover{
+    background-color:#E1E4F0 ;
+  }
+
+  .grid-box-today:hover.dark{
+    background-color:#333A55 ;
+  }
+  .grid-box-total:hover.dark{
+    background-color:#333A55 ;
   }

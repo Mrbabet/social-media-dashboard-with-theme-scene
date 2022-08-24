@@ -30,4 +30,20 @@ body.dark {
 }
 .grid-box-today.dark .flex-row h4 {
   color: white;
+}
+
+.grid-box-today:hover {
+  background-color: #E1E4F0;
+}
+
+.grid-box-total:hover {
+  background-color: #E1E4F0;
+}
+
+.grid-box-today:hover.dark {
+  background-color: #333A55;
+}
+
+.grid-box-total:hover.dark {
+  background-color: #333A55;
 }/*# sourceMappingURL=main.css.map */
