@@ -1,0 +1,33 @@
+/* Dark theme */
+body.dark {
+  background-color: #20222f;
+}
+
+.top-header.dark {
+  background-color: #20222f;
+}
+
+.top-header-wrapper.dark h1 {
+  color: white;
+}
+
+.grid-box-total.dark {
+  background-color: #252b42;
+  color: white;
+}
+.grid-box-total.dark p {
+  color: white;
+}
+.grid-box-total.dark span {
+  color: #8C98C6;
+}
+
+.grid-box-today.dark {
+  background-color: #252b42;
+}
+.grid-box-today.dark .flex-row span {
+  color: #8C98C6;
+}
+.grid-box-today.dark .flex-row h4 {
+  color: white;
+}/*# sourceMappingURL=main.css.map */

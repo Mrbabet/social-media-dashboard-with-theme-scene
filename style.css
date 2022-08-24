@@ -92,6 +92,7 @@ select {
 .Mode-slider input {
   margin-left: auto;
 }
+
 .grid-container-total {
   display: grid;
   justify-content: center;
@@ -243,25 +244,6 @@ select {
   border-radius: 50%;
   top: 2px;
   left: 2px;
-}
-body.dark {
-  background-color: #1d1f29;
-}
-.topHeaderDark {
-  background-color: #20222f;
-}
-
-.gridBoxTotalDark {
-  background-color: #252b42;
-}
-.gridBoxTotalDark:hover {
-  background-color: #333a55;
-}
-.gridBoxTodayDark {
-  background-color: #252b42;
-}
-.gridBoxTodayDark:hover {
-  background-color: #333a55;
 }
 
 @media screen and (min-width: 800px) {
