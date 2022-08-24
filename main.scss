@@ -1,62 +1,54 @@
 /* Dark theme */
 body.dark {
-    background-color: #20222f;
-  }
+  background-color: #1d1f29;
+}
 
-  .top-header.dark {
-    background-color: #20222f;
-    
-  }
-  .top-header-wrapper.dark{
-    h1{
-      color: white;
-  }}
- 
-
-  .grid-box-total.dark {
-    background-color: #252b42;
+.top-header.dark {
+  background-color: #20222f;
+}
+.top-header-wrapper.dark {
+  h1 {
     color: white;
-
-    
-    p{
-        color: white;
-    }
-    span{
-        color: #8C98C6;
-    }
   }
+}
 
- 
-  
- 
+.grid-box-total.dark {
+  background-color: #252b42;
+  color: white;
 
-  
-  
+  p {
+    color: white;
+  }
+  span {
+    color: #8c98c6;
+  }
+}
+
 .grid-box-today.dark {
-    background-color: #252b42;
-  
-   .flex-row{
-    span{
-        color: #8C98C6;
+  background-color: #252b42;
+
+  .flex-row {
+    span {
+      color: #8c98c6;
     }
-    h4{
-        color: white; 
+    h4 {
+      color: white;
     }
-   }
   }
+}
 
-  // Hover states
+// Hover states
 
-  .grid-box-today:hover{
-    background-color:#E1E4F0;
-  }
-  .grid-box-total:hover{
-    background-color:#E1E4F0 ;
-  }
+.grid-box-today:hover {
+  background-color: #e1e4f0;
+}
+.grid-box-total:hover {
+  background-color: #e1e4f0;
+}
 
-  .grid-box-today:hover.dark{
-    background-color:#333A55 ;
-  }
-  .grid-box-total:hover.dark{
-    background-color:#333A55 ;
-  }
+.grid-box-today:hover.dark {
+  background-color: #333a55;
+}
+.grid-box-total:hover.dark {
+  background-color: #333a55;
+}

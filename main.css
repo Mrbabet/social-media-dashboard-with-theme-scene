@@ -1,6 +1,6 @@
 /* Dark theme */
 body.dark {
-  background-color: #20222f;
+  background-color: #1d1f29;
 }
 
 .top-header.dark {
@@ -19,31 +19,31 @@ body.dark {
   color: white;
 }
 .grid-box-total.dark span {
-  color: #8C98C6;
+  color: #8c98c6;
 }
 
 .grid-box-today.dark {
   background-color: #252b42;
 }
 .grid-box-today.dark .flex-row span {
-  color: #8C98C6;
+  color: #8c98c6;
 }
 .grid-box-today.dark .flex-row h4 {
   color: white;
 }
 
 .grid-box-today:hover {
-  background-color: #E1E4F0;
+  background-color: #e1e4f0;
 }
 
 .grid-box-total:hover {
-  background-color: #E1E4F0;
+  background-color: #e1e4f0;
 }
 
 .grid-box-today:hover.dark {
-  background-color: #333A55;
+  background-color: #333a55;
 }
 
 .grid-box-total:hover.dark {
-  background-color: #333A55;
+  background-color: #333a55;
 }/*# sourceMappingURL=main.css.map */
